@@ -1,0 +1,59 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "platform-logo",
+      "description": "Logo principal da OmniStock",
+      "imageUrl": "https://i.pinimg.com/1200x/df/44/a5/df44a5da2d26fb4b892a085bbd463437.jpg",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "site-favicon",
+      "description": "Ícone do site para a aba do navegador",
+      "imageUrl": "https://i.pinimg.com/736x/98/4b/61/984b610fbfbe1c367d01dcbf56055f86.jpg",
+      "imageHint": "website favicon"
+    },
+    {
+      "id": "admin-avatar",
+      "description": "Avatar do administrador logístico",
+      "imageUrl": "https://i.pinimg.com/1200x/2c/76/2b/2c762b3466508402315177f208a1afca.jpg",
+      "imageHint": "logistics manager"
+    },
+    {
+      "id": "gpu-3080",
+      "description": "ASUS RTX 3080 Ti",
+      "imageUrl": "https://i.pinimg.com/736x/03/1a/77/031a776297d210058a2761e9c9f04122.jpg",
+      "imageHint": "graphics card"
+    },
+    {
+      "id": "cpu-i9",
+      "description": "Intel i9-12900K",
+      "imageUrl": "https://i.pinimg.com/736x/09/b9/4b/09b94b23ae458fb2b59cbeadf85c05a8.jpg",
+      "imageHint": "processor"
+    },
+    {
+      "id": "ssd-nvme",
+      "description": "Samsung 980 Pro",
+      "imageUrl": "https://i.pinimg.com/1200x/43/3b/30/433b30bc4c4558bf16f5ea9265b550d6.jpg",
+      "imageHint": "ssd drive"
+    },
+    {
+      "id": "mouse-mx",
+      "description": "Logitech MX Master",
+      "imageUrl": "https://i.pinimg.com/736x/ec/08/b4/ec08b44245c2739d2090f4075971ec99.jpg",
+      "imageHint": "computer mouse"
+    },
+    {
+      "id": "monitor-4k",
+      "description": "Dell UltraSharp 27",
+      "imageUrl": "https://i.pinimg.com/736x/ad/db/ca/addbca2f3abe851c89c58998d64cf0bf.jpg",
+      "imageHint": "computer monitor"
+    },
+    {
+      "id": "ram-ddr5",
+      "description": "Kingston Fury 16GB",
+      "imageUrl": "https://i.pinimg.com/736x/90/8f/87/908f8709b54006e2793c84bb1615d19e.jpg",
+      "imageHint": "computer ram"
+    }
+  ]
+}

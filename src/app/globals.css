@@ -1,0 +1,76 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 25% 6%;
+    --foreground: 210 20% 98%;
+    --card: 220 25% 8%;
+    --card-foreground: 210 20% 98%;
+    --popover: 220 25% 7%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 227 100% 59%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 25% 12%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 220 25% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 260 100% 62%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 25% 15%;
+    --input: 220 25% 15%;
+    --ring: 227 100% 59%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased selection:bg-primary/30 overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight;
+  }
+}
+
+.font-mono-data {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.pin-pad-button {
+  @apply h-16 w-16 text-xl font-semibold rounded-full border border-border bg-secondary hover:bg-primary/20 hover:border-primary transition-all duration-200 flex items-center justify-center;
+}
+
+/* Ajustes de responsividade para garantir que nada fique torto em 100% zoom */
+@media (min-width: 1024px) {
+  .store-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+/* Garante que o texto não saia dos botões */
+button, .button {
+  @apply overflow-hidden text-ellipsis whitespace-nowrap;
+}
+
+/* Melhoria no scroll da sidebar */
+[data-sidebar="content"] {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+
+[data-sidebar="content"]::-webkit-scrollbar {
+  width: 4px;
+}
+
+[data-sidebar="content"]::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 10px;
+}
